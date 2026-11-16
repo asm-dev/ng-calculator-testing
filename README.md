@@ -1,21 +1,21 @@
-# Aplicación de Calculadora
+# Calculator Application
 
-Una aplicación sencilla pero completa desarrollada con **Angular 19** y componentes standalone. Permite realizar sumas, restas y multiplicaciones, con un enfoque claro en la **calidad del software** a través de pruebas unitarias y testeo.
+A simple but complete application developed with **Angular 19** and standalone components. It allows performing additions, subtractions and multiplications, with a clear focus on **software quality** through unit tests and testing.
 
 ![image](https://github.com/user-attachments/assets/cf628316-d2bf-4746-b25e-11d28df6e483)
 
-## La importancia del testing
+## The importance of testing
 
-Las pruebas son una necesidad fundamental en el desarrollo moderno. En este proyecto utilizamos tests unitarios y E2E.
+Tests are a fundamental necessity in modern development. In this project we use unit and E2E tests.
 
-Las **pruebas unitarias** son rápidas, automatizadas y nos dan confianza para refactorizar el código sin temor a introducir errores. En este proyecto se asegura que los valores iniciales sean `0`, se valida la lógica de operaciones y se verifica el resultado mostrado en el HTML.
+**Unit tests** are fast, automated and give us the confidence to refactor code without fear of introducing bugs. In this project they ensure that the initial values are `0`, validate the operation logic and verify the result displayed in the HTML.
 
-Con Cypress realizamos pruebas **end-to-end** o E2E, que simulan el comportamiento del usuario final, comprobando que pueden introducirse valores numéricos y realizar cálculos con ellos, generando resultados correctos.
+With Cypress we run **end-to-end** or E2E tests, which simulate the end user's behavior, checking that numeric values can be entered and calculations can be performed with them, producing correct results.
 
-Básicamente, este proyecto sigue el principio de la **pirámide de pruebas** de Google:
+Basically, this project follows Google's **test pyramid** principle:
 
-- Muchas pruebas unitarias rápidas
-- Algunas pruebas de integración
-- Pocas pruebas E2E, pero cubren los flujos críticos
+- Many fast unit tests
+- Some integration tests
+- Few E2E tests, but they cover the critical flows
 
-> Más información: [Google Testing Blog - The Test Pyramid](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+> More information: [Google Testing Blog - The Test Pyramid](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
